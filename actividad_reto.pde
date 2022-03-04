@@ -63,7 +63,7 @@ class Figura{
     if (xpos < tam1/2) {
       xpos = tam1/2;
       display();
-      fondo = color (255, 153, 204);
+      fondo = color(204, 153, 255);
       display();
     }
   }
@@ -73,7 +73,7 @@ class Figura{
     xpos = xpos + xspeed;
     if (xpos > width-tam1/2) {
       xpos = width-tam1/2;
-      fondo = color(204, 153, 255);
+      fondo = color (255, 153, 204);
       display();
     }
   }
